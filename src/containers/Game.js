@@ -5,7 +5,7 @@ import React from 'react';
 import { connect } from 'react-redux';
 import { bindActionCreators } from 'redux';
 import Board from '../components/Board';
-import * as action from '../actions';
+import * as action from '../actions/gameActions';
 
 const nSquareToWin = 5;
 function calculateWinner(squares) {
